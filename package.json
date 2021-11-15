@@ -1,0 +1,29 @@
+{
+  "name": "cloud-shop",
+  "version": "0.0.0",
+  "server": false,
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "turbo devserver",
+    "test": "",
+    "build": "",
+    "postinstall": "turbo postinstall"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1028.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "turbo360": "^1.8.69",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12",
+    "vertex360": "^0.30.39"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^2.6.2"
+  },
+  "format": "vertex"
+}
